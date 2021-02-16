@@ -27,7 +27,7 @@ input parameters => year - 2014;
 ![text](input.JPG?raw=true "text")
 
 Results:
-execution_time:87.90251278877258 sec;
+execution_time: 87.90251278877258 sec;
 
 Successful execution: => 'Success!!!'
 
