@@ -24,7 +24,7 @@ input parameters => year - 2014;
                     point-cordinates: 48.3794° N, 31.1656° E 
                                       (Ukraine's cordinates)
 
-![text](input.jpg?raw=true "text")
+![text](input.JPG?raw=true "text")
 
 Results:
 execution_time:87.90251278877258 sec;
