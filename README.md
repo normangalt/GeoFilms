@@ -31,14 +31,14 @@ execution_time:87.90251278877258 sec;
 
 Successful execution: => 'Success!!!'
 
-![text](results.jpg?raw=true "text")
+![text](results.JPG?raw=true "text")
 
 Map:
-![text](mao_result.jpg?raw=true "text")
+![text](mao_result.JPG?raw=true "text")
 
-![text](mao_result2.jpg?raw=true "text")
+![text](mao_result2.JPG?raw=true "text")
 
-![text](mao_result3.jpg?raw=true "text")
+![text](mao_result3.JPG?raw=true "text")
 
 ## License
 MIT License
