@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e66ff17ad10243058edb289f44a9c332 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e66ff17ad10243058edb289f44a9c332" ></div>
+        
+</body>
+<script>    
+    
+            var map_e66ff17ad10243058edb289f44a9c332 = L.map(
+                "map_e66ff17ad10243058edb289f44a9c332",
+                {
+                    center: [48.3794, 31.1656],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dc93405145274447b721599611362c22 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e66ff17ad10243058edb289f44a9c332);
+        
+    
+            var marker_cluster_a84e0374e7804a4d921a1ac607e656ed = L.markerClusterGroup(
+                {}
+            );
+            map_e66ff17ad10243058edb289f44a9c332.addLayer(marker_cluster_a84e0374e7804a4d921a1ac607e656ed);
+        
+    
+            var marker_29e1cb5b2b1241c8bd2e86ab7e654348 = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(marker_cluster_a84e0374e7804a4d921a1ac607e656ed);
+        
+    
+            var icon_999a211be6cd4fffa77e8e41576d2eb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29e1cb5b2b1241c8bd2e86ab7e654348.setIcon(icon_999a211be6cd4fffa77e8e41576d2eb7);
+        
+    
+        var popup_533379012f6248859b575634aa95d6b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d4a17ec4e6c4dd2b9c99bd930f56ce5 = $(`<div id="html_9d4a17ec4e6c4dd2b9c99bd930f56ce5" style="width: 100.0%; height: 100.0%;">Location: France Film captured: Big Wave Hellmen  Year of release: 2014.</div>`)[0];
+            popup_533379012f6248859b575634aa95d6b3.setContent(html_9d4a17ec4e6c4dd2b9c99bd930f56ce5);
+        
+
+        marker_29e1cb5b2b1241c8bd2e86ab7e654348.bindPopup(popup_533379012f6248859b575634aa95d6b3)
+        ;
+
+        
+    
+    
+            var marker_85371de740b74875ac8924a82e752746 = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(marker_cluster_a84e0374e7804a4d921a1ac607e656ed);
+        
+    
+            var icon_f851f632b341428ebfd9793e63805e1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_85371de740b74875ac8924a82e752746.setIcon(icon_f851f632b341428ebfd9793e63805e1f);
+        
+    
+        var popup_71a68b283fd74e45bde3d98dba3e0223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d263125000764118abf008bf5e8b6c71 = $(`<div id="html_d263125000764118abf008bf5e8b6c71" style="width: 100.0%; height: 100.0%;">Location: France Film captured: Hoch Hinaus - Das Expeditionsteam  Year of release: 2014.</div>`)[0];
+            popup_71a68b283fd74e45bde3d98dba3e0223.setContent(html_d263125000764118abf008bf5e8b6c71);
+        
+
+        marker_85371de740b74875ac8924a82e752746.bindPopup(popup_71a68b283fd74e45bde3d98dba3e0223)
+        ;
+
+        
+    
+    
+            var marker_3051949c1ae04e23b7ae4913941465f1 = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(marker_cluster_a84e0374e7804a4d921a1ac607e656ed);
+        
+    
+            var icon_29c803260ac84d179fd0a7fbf9a9a056 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3051949c1ae04e23b7ae4913941465f1.setIcon(icon_29c803260ac84d179fd0a7fbf9a9a056);
+        
+    
+        var popup_e3828f597fff41ddad924fa8573ba38b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c437b006170041279920c7ce68a76ab3 = $(`<div id="html_c437b006170041279920c7ce68a76ab3" style="width: 100.0%; height: 100.0%;">Location: France Film captured: In America  Year of release: 2014.</div>`)[0];
+            popup_e3828f597fff41ddad924fa8573ba38b.setContent(html_c437b006170041279920c7ce68a76ab3);
+        
+
+        marker_3051949c1ae04e23b7ae4913941465f1.bindPopup(popup_e3828f597fff41ddad924fa8573ba38b)
+        ;
+
+        
+    
+    
+            var marker_60f5334e507e4ac18026ed2f4e156250 = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(marker_cluster_a84e0374e7804a4d921a1ac607e656ed);
+        
+    
+            var icon_873c753e6ad145f993fd69f4559c6f85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_60f5334e507e4ac18026ed2f4e156250.setIcon(icon_873c753e6ad145f993fd69f4559c6f85);
+        
+    
+        var popup_350052c0e4d94fdb961f1101f855a4fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e97ed21b153e4ed58f3bc2c0607ffd02 = $(`<div id="html_e97ed21b153e4ed58f3bc2c0607ffd02" style="width: 100.0%; height: 100.0%;">Location: France Film captured: In Vino Veritas  Year of release: 2014.</div>`)[0];
+            popup_350052c0e4d94fdb961f1101f855a4fc.setContent(html_e97ed21b153e4ed58f3bc2c0607ffd02);
+        
+
+        marker_60f5334e507e4ac18026ed2f4e156250.bindPopup(popup_350052c0e4d94fdb961f1101f855a4fc)
+        ;
+
+        
+    
+    
+            var marker_3c1ac6767ca14809a53afcb0c9e488e3 = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(marker_cluster_a84e0374e7804a4d921a1ac607e656ed);
+        
+    
+            var icon_d35d0525969b48a0b6dadc5d45e8effd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c1ac6767ca14809a53afcb0c9e488e3.setIcon(icon_d35d0525969b48a0b6dadc5d45e8effd);
+        
+    
+        var popup_c2192d907d0147e6ad6cc7daf6789207 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4849d97d43864d1b8203ebdcf68e9d03 = $(`<div id="html_4849d97d43864d1b8203ebdcf68e9d03" style="width: 100.0%; height: 100.0%;">Location: France Film captured: Le Tour de France 2014  Year of release: 2014.</div>`)[0];
+            popup_c2192d907d0147e6ad6cc7daf6789207.setContent(html_4849d97d43864d1b8203ebdcf68e9d03);
+        
+
+        marker_3c1ac6767ca14809a53afcb0c9e488e3.bindPopup(popup_c2192d907d0147e6ad6cc7daf6789207)
+        ;
+
+        
+    
+    
+            var marker_59c27c2a9ecd4e05bf54f4afc71cf724 = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(marker_cluster_a84e0374e7804a4d921a1ac607e656ed);
+        
+    
+            var icon_de6321e72ad042bdbbe9465d396ea896 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_59c27c2a9ecd4e05bf54f4afc71cf724.setIcon(icon_de6321e72ad042bdbbe9465d396ea896);
+        
+    
+        var popup_f4924178031649528de85790fb892e54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_940125ae815c4f7aaad626c5d9f4f7c2 = $(`<div id="html_940125ae815c4f7aaad626c5d9f4f7c2" style="width: 100.0%; height: 100.0%;">Location: France Film captured: Queen Victoria's Letters: A Monarch Unveiled  Year of release: 2014.</div>`)[0];
+            popup_f4924178031649528de85790fb892e54.setContent(html_940125ae815c4f7aaad626c5d9f4f7c2);
+        
+
+        marker_59c27c2a9ecd4e05bf54f4afc71cf724.bindPopup(popup_f4924178031649528de85790fb892e54)
+        ;
+
+        
+    
+    
+            var marker_aa43a5ce8add4470adcc724fc0ede046 = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(marker_cluster_a84e0374e7804a4d921a1ac607e656ed);
+        
+    
+            var icon_f7e5537689f342a4a798c2ac8877a6b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aa43a5ce8add4470adcc724fc0ede046.setIcon(icon_f7e5537689f342a4a798c2ac8877a6b7);
+        
+    
+        var popup_98f0d60f77644904a64aeeea7a70f0ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58a484a49abb4fc8ada4fe34591a0bef = $(`<div id="html_58a484a49abb4fc8ada4fe34591a0bef" style="width: 100.0%; height: 100.0%;">Location: France Film captured: Random  Year of release: 2014.</div>`)[0];
+            popup_98f0d60f77644904a64aeeea7a70f0ac.setContent(html_58a484a49abb4fc8ada4fe34591a0bef);
+        
+
+        marker_aa43a5ce8add4470adcc724fc0ede046.bindPopup(popup_98f0d60f77644904a64aeeea7a70f0ac)
+        ;
+
+        
+    
+    
+            var marker_9fe74108a4404cb4884a4a3cd2591903 = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(marker_cluster_a84e0374e7804a4d921a1ac607e656ed);
+        
+    
+            var icon_3f2de92d562d4f91b5c05659cd06af05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9fe74108a4404cb4884a4a3cd2591903.setIcon(icon_3f2de92d562d4f91b5c05659cd06af05);
+        
+    
+        var popup_8d0f12dd214940c2b5549dbdc9fc004e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e356b8be5a2943afa18b0f2ee3e0ead4 = $(`<div id="html_e356b8be5a2943afa18b0f2ee3e0ead4" style="width: 100.0%; height: 100.0%;">Location: France Film captured: The War to End All Wars  Year of release: 2014.</div>`)[0];
+            popup_8d0f12dd214940c2b5549dbdc9fc004e.setContent(html_e356b8be5a2943afa18b0f2ee3e0ead4);
+        
+
+        marker_9fe74108a4404cb4884a4a3cd2591903.bindPopup(popup_8d0f12dd214940c2b5549dbdc9fc004e)
+        ;
+
+        
+    
+    
+            var marker_a6d7de4c8f6a427788d3e99d954bb48d = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(marker_cluster_a84e0374e7804a4d921a1ac607e656ed);
+        
+    
+            var icon_ae4e18dc8b0d435dabb36e68fb25532a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6d7de4c8f6a427788d3e99d954bb48d.setIcon(icon_ae4e18dc8b0d435dabb36e68fb25532a);
+        
+    
+        var popup_ad0f22fb12a947ca96385d90fd9ce7d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57fbe61b7faa4541beb81b6a6f98fe83 = $(`<div id="html_57fbe61b7faa4541beb81b6a6f98fe83" style="width: 100.0%; height: 100.0%;">Location: France Film captured: 3 Days to Kill  Year of release: 2014.</div>`)[0];
+            popup_ad0f22fb12a947ca96385d90fd9ce7d8.setContent(html_57fbe61b7faa4541beb81b6a6f98fe83);
+        
+
+        marker_a6d7de4c8f6a427788d3e99d954bb48d.bindPopup(popup_ad0f22fb12a947ca96385d90fd9ce7d8)
+        ;
+
+        
+    
+    
+            var marker_4c421045ac724246b5a211d161f2f0a3 = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(marker_cluster_a84e0374e7804a4d921a1ac607e656ed);
+        
+    
+            var icon_fb6fa684ecc340e6a9317cd53a0d8952 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4c421045ac724246b5a211d161f2f0a3.setIcon(icon_fb6fa684ecc340e6a9317cd53a0d8952);
+        
+    
+        var popup_73d97df2543c4912addae1a219bd88ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd55b9e1e0c44f4ab9619cee5a484a23 = $(`<div id="html_fd55b9e1e0c44f4ab9619cee5a484a23" style="width: 100.0%; height: 100.0%;">Location: France Film captured: 9/11 Generation Rangers  Year of release: 2014.</div>`)[0];
+            popup_73d97df2543c4912addae1a219bd88ba.setContent(html_fd55b9e1e0c44f4ab9619cee5a484a23);
+        
+
+        marker_4c421045ac724246b5a211d161f2f0a3.bindPopup(popup_73d97df2543c4912addae1a219bd88ba)
+        ;
+
+        
+    
+    
+            var marker_cluster_b807109c8dfa48afafd06f8599063f66 = L.markerClusterGroup(
+                {}
+            );
+            map_e66ff17ad10243058edb289f44a9c332.addLayer(marker_cluster_b807109c8dfa48afafd06f8599063f66);
+        
+    
+            var circle_marker_1bfa4fbfc70c40409e64941da4c27be2 = L.circleMarker(
+                [25.357213920028602, 33.247071961320394],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.541066266810544, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.3706736386995777, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b807109c8dfa48afafd06f8599063f66);
+        
+    
+        var popup_a253ffbe08534a72ac5ad274c16a69b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60358904417d4b938dee96baddbf8be1 = $(`<div id="html_60358904417d4b938dee96baddbf8be1" style="width: 100.0%; height: 100.0%;">Random user point</div>`)[0];
+            popup_a253ffbe08534a72ac5ad274c16a69b0.setContent(html_60358904417d4b938dee96baddbf8be1);
+        
+
+        circle_marker_1bfa4fbfc70c40409e64941da4c27be2.bindPopup(popup_a253ffbe08534a72ac5ad274c16a69b0)
+        ;
+
+        
+    
+    
+            var circle_marker_64caf96b30c84b0c8e25e15719e1ce41 = L.circleMarker(
+                [8.3284289702157, 71.99164123358007],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6425444209027777, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.11950255321807, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b807109c8dfa48afafd06f8599063f66);
+        
+    
+        var popup_b0cfaa33af214185be508913db04ccbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bd377fc766a402c80cdafdf4350747b = $(`<div id="html_3bd377fc766a402c80cdafdf4350747b" style="width: 100.0%; height: 100.0%;">Random user point</div>`)[0];
+            popup_b0cfaa33af214185be508913db04ccbf.setContent(html_3bd377fc766a402c80cdafdf4350747b);
+        
+
+        circle_marker_64caf96b30c84b0c8e25e15719e1ce41.bindPopup(popup_b0cfaa33af214185be508913db04ccbf)
+        ;
+
+        
+    
+    
+            var circle_marker_559d19c711cf412f9934e34dfdc80485 = L.circleMarker(
+                [46.217009663908065, 63.26800748031167],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.49979768941807745, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.456788639130476, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b807109c8dfa48afafd06f8599063f66);
+        
+    
+        var popup_afae4e0e457745f39a1360af1a3fcec7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7638062720534f519147cca3471c4585 = $(`<div id="html_7638062720534f519147cca3471c4585" style="width: 100.0%; height: 100.0%;">Random user point</div>`)[0];
+            popup_afae4e0e457745f39a1360af1a3fcec7.setContent(html_7638062720534f519147cca3471c4585);
+        
+
+        circle_marker_559d19c711cf412f9934e34dfdc80485.bindPopup(popup_afae4e0e457745f39a1360af1a3fcec7)
+        ;
+
+        
+    
+    
+            var circle_marker_bff0b0d886144945a385479041953b14 = L.circleMarker(
+                [18.00191586669022, 11.773684399614929],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.44807638554548535, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.98831453523632, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b807109c8dfa48afafd06f8599063f66);
+        
+    
+        var popup_eebc7aaafa8e41828e59d5c81bf8c192 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e43c00c11a445039fe82eeae5eb3f77 = $(`<div id="html_3e43c00c11a445039fe82eeae5eb3f77" style="width: 100.0%; height: 100.0%;">Random user point</div>`)[0];
+            popup_eebc7aaafa8e41828e59d5c81bf8c192.setContent(html_3e43c00c11a445039fe82eeae5eb3f77);
+        
+
+        circle_marker_bff0b0d886144945a385479041953b14.bindPopup(popup_eebc7aaafa8e41828e59d5c81bf8c192)
+        ;
+
+        
+    
+    
+            var circle_marker_f265470b23c542ed87911ace58429c5c = L.circleMarker(
+                [70.18448904261524, 85.96932415851661],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.09670913211295584, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.421191801850247, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b807109c8dfa48afafd06f8599063f66);
+        
+    
+        var popup_0a3d3bb02d74495f9c7bfa5a3d19b92a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f1c2a687b0842caa00369af37144b8b = $(`<div id="html_2f1c2a687b0842caa00369af37144b8b" style="width: 100.0%; height: 100.0%;">Random user point</div>`)[0];
+            popup_0a3d3bb02d74495f9c7bfa5a3d19b92a.setContent(html_2f1c2a687b0842caa00369af37144b8b);
+        
+
+        circle_marker_f265470b23c542ed87911ace58429c5c.bindPopup(popup_0a3d3bb02d74495f9c7bfa5a3d19b92a)
+        ;
+
+        
+    
+    
+            var circle_marker_0c505c2e1a8140bbb5d7f2bd389400d0 = L.circleMarker(
+                [61.89827088144762, 21.497697743591818],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8970465995190965, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.76988571776791, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b807109c8dfa48afafd06f8599063f66);
+        
+    
+        var popup_a3c33d5700634c268c12bbe290339f73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cef72303ebb9446f8a5430b5588176a1 = $(`<div id="html_cef72303ebb9446f8a5430b5588176a1" style="width: 100.0%; height: 100.0%;">Random user point</div>`)[0];
+            popup_a3c33d5700634c268c12bbe290339f73.setContent(html_cef72303ebb9446f8a5430b5588176a1);
+        
+
+        circle_marker_0c505c2e1a8140bbb5d7f2bd389400d0.bindPopup(popup_a3c33d5700634c268c12bbe290339f73)
+        ;
+
+        
+    
+    
+            var circle_marker_ae91df0e65774c38b04c1dbee864d5ec = L.circleMarker(
+                [83.91091215571389, 54.85552045923656],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.44309807094177367, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.67095256159543, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b807109c8dfa48afafd06f8599063f66);
+        
+    
+        var popup_d9000a7dc76c49259a497c18f3b42f72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_885daec4ce7f425a9ad9d0419076bdde = $(`<div id="html_885daec4ce7f425a9ad9d0419076bdde" style="width: 100.0%; height: 100.0%;">Random user point</div>`)[0];
+            popup_d9000a7dc76c49259a497c18f3b42f72.setContent(html_885daec4ce7f425a9ad9d0419076bdde);
+        
+
+        circle_marker_ae91df0e65774c38b04c1dbee864d5ec.bindPopup(popup_d9000a7dc76c49259a497c18f3b42f72)
+        ;
+
+        
+    
+    
+            var circle_marker_48626186e207409cb64b1e9b41eb8ea2 = L.circleMarker(
+                [15.384221882423729, 19.266978416998455],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2814449968737722, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.4943188819294813, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b807109c8dfa48afafd06f8599063f66);
+        
+    
+        var popup_693916e32ccb4e4ba96935fe55d33190 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fad1b1277c54445acc4de03aa9d3c57 = $(`<div id="html_2fad1b1277c54445acc4de03aa9d3c57" style="width: 100.0%; height: 100.0%;">Random user point</div>`)[0];
+            popup_693916e32ccb4e4ba96935fe55d33190.setContent(html_2fad1b1277c54445acc4de03aa9d3c57);
+        
+
+        circle_marker_48626186e207409cb64b1e9b41eb8ea2.bindPopup(popup_693916e32ccb4e4ba96935fe55d33190)
+        ;
+
+        
+    
+    
+            var circle_marker_fd654734d9734b04b1a26d21fb5915e6 = L.circleMarker(
+                [36.55272095582756, 32.25431099734298],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6667327655272096, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.251124652724055, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b807109c8dfa48afafd06f8599063f66);
+        
+    
+        var popup_9b81db1cb924446fa10da41fc5a08e6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae8c1656032e4381af60198594153ef3 = $(`<div id="html_ae8c1656032e4381af60198594153ef3" style="width: 100.0%; height: 100.0%;">Random user point</div>`)[0];
+            popup_9b81db1cb924446fa10da41fc5a08e6c.setContent(html_ae8c1656032e4381af60198594153ef3);
+        
+
+        circle_marker_fd654734d9734b04b1a26d21fb5915e6.bindPopup(popup_9b81db1cb924446fa10da41fc5a08e6c)
+        ;
+
+        
+    
+    
+            var circle_marker_b174dc71780f477aad81ac555ede3acf = L.circleMarker(
+                [13.425087503629182, 37.82155928549118],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.0014160222069007355, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.169570651335435, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b807109c8dfa48afafd06f8599063f66);
+        
+    
+        var popup_ae44d6fe185b4b1fb46773f4c284eac0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6a7fcb4affd4b688160630293429ac8 = $(`<div id="html_e6a7fcb4affd4b688160630293429ac8" style="width: 100.0%; height: 100.0%;">Random user point</div>`)[0];
+            popup_ae44d6fe185b4b1fb46773f4c284eac0.setContent(html_e6a7fcb4affd4b688160630293429ac8);
+        
+
+        circle_marker_b174dc71780f477aad81ac555ede3acf.bindPopup(popup_ae44d6fe185b4b1fb46773f4c284eac0)
+        ;
+
+        
+    
+    
+            var feature_group_fbdce65b0a4b4dae93813e960cf56bdf = L.featureGroup(
+                {}
+            ).addTo(map_e66ff17ad10243058edb289f44a9c332);
+        
+    
+            var marker_99ffecb63eb448ed86bfd2de868d208d = L.marker(
+                [48.3794, 31.1656],
+                {}
+            ).addTo(feature_group_fbdce65b0a4b4dae93813e960cf56bdf);
+        
+    
+            var icon_f10e4ba233c342d6bf0a63861b956019 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_99ffecb63eb448ed86bfd2de868d208d.setIcon(icon_f10e4ba233c342d6bf0a63861b956019);
+        
+    
+        var popup_7ecd231791104830b2c21a36d86655c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cebebd06a9da451bbe0cca15070d8f78 = $(`<div id="html_cebebd06a9da451bbe0cca15070d8f78" style="width: 100.0%; height: 100.0%;">User point</div>`)[0];
+            popup_7ecd231791104830b2c21a36d86655c0.setContent(html_cebebd06a9da451bbe0cca15070d8f78);
+        
+
+        marker_99ffecb63eb448ed86bfd2de868d208d.bindPopup(popup_7ecd231791104830b2c21a36d86655c0)
+        ;
+
+        
+    
+    
+            var layer_control_4153fa3e9ab948dfbe8f05ff8bd44224 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_dc93405145274447b721599611362c22,
+                },
+                overlays :  {
+                    "Output points" : marker_cluster_a84e0374e7804a4d921a1ac607e656ed,
+                    "Random_points_random_layer" : marker_cluster_b807109c8dfa48afafd06f8599063f66,
+                    "Films map." : feature_group_fbdce65b0a4b4dae93813e960cf56bdf,
+                },
+            };
+            L.control.layers(
+                layer_control_4153fa3e9ab948dfbe8f05ff8bd44224.base_layers,
+                layer_control_4153fa3e9ab948dfbe8f05ff8bd44224.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_e66ff17ad10243058edb289f44a9c332);
+        
+</script>
